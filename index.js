@@ -1,3 +1,6 @@
+function laCajaDePandora(numero){
+    return numero % 2 === 0 ? numero.toString(2) : numero.toString(16)
+
 
 function laCajaDePandora(numero) {
   if (numero % 2 == 0) {
@@ -8,6 +11,7 @@ function laCajaDePandora(numero) {
 
     return;
   }
+
 }
 
 const esteban = ()=>{

@@ -3,3 +3,10 @@ function laCajaDePandora(numero) {
 }
 
 console.log("Rosario");
+
+const esteban = () => {
+  return {
+    nombre: "Esteban",
+    edad: 31,
+  };
+};

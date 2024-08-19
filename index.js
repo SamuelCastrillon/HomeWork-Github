@@ -1,3 +1,6 @@
-function laCajaDePandora(numero){
-// proximamente escribiremos codigo aqui
+const esteban = ()=>{
+    return {
+        nombre: 'Esteban',
+        edad: 31
+    }
 }

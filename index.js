@@ -1,32 +1,27 @@
-
 function laCajaDePandora(numero) {
   // proximamente escribiremos codigo aqui
 }
 
 console.log("Rosario");
 
-
-function laCajaDePandora(numero){
-    return numero % 2 === 0 ? numero.toString(2) : numero.toString(16)
-
-
 function laCajaDePandora(numero) {
-  if (numero % 2 == 0) {
-    console.log(numero.toString(2));
-    return;
-  } else {
-    console.log(numero.toString(16));
+  return numero % 2 === 0 ? numero.toString(2) : numero.toString(16);
 
-    return;
+  function laCajaDePandora(numero) {
+    if (numero % 2 == 0) {
+      console.log(numero.toString(2));
+      return;
+    } else {
+      console.log(numero.toString(16));
+
+      return;
+    }
   }
 
-}
-
-const esteban = ()=>{
+  const esteban = () => {
     return {
-        nombre: 'Esteban',
-        edad: 31
-    }
+      nombre: "Esteban",
+      edad: 31,
+    };
+  };
 }
-
-

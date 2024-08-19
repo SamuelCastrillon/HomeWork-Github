@@ -1,3 +1,16 @@
+
+function laCajaDePandora(numero) {
+  if (numero % 2 == 0) {
+    console.log(numero.toString(2));
+    return;
+  } else {
+    console.log(numero.toString(16));
+
+    return;
+  }
+}
+laCajaDePandora(45);
+
 function laCajaDePandora(numero){
    if(numero % 2 == 0){
     const binario = numero.toString(2);
@@ -16,3 +29,4 @@ const esteban = ()=>{
         nacionalidad: 'Uruguayo'
     }
 }
+

@@ -1,3 +1,4 @@
+
 function laCajaDePandora(numero) {
   if (numero % 2 == 0) {
     console.log(numero.toString(2));
@@ -8,3 +9,11 @@ function laCajaDePandora(numero) {
     return;
   }
 }
+
+const esteban = ()=>{
+    return {
+        nombre: 'Esteban',
+        edad: 31
+    }
+}
+

@@ -1,1 +1,3 @@
-console.log("Hola mundo");
+function laCajaDePandora(numero){
+    // proximamente escribiremos codigo aqui
+    }

@@ -13,3 +13,11 @@ console.log(laCajaDePandora(8));
 console.log(laCajaDePandora(20));
 console.log(laCajaDePandora(12));
 console.log(laCajaDePandora(11));
+
+const rosario = () => {
+  return {
+    nombre: "Rosario",
+    edad: 32,
+    nacionalidad: "Argentina",
+  };
+};

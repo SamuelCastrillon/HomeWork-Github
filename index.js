@@ -8,3 +8,11 @@ function laCajaDePandora(numero){
     return hexadecimal;
    }
 }
+
+const esteban = ()=>{
+    return {
+        nombre: 'Esteban',
+        edad: 31,
+        nacionalidad: 'Uruguayo'
+    }
+}

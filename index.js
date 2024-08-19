@@ -1,4 +1,15 @@
 
+function nombre() {
+    return {
+        nombre: "Maria Pilar Carranza",
+        edad: "30",
+        nacionalidad: "Argentina"
+    }
+}
+
+console.log(nombre())
+
+
 function laCajaDePandora(numero) {
   // proximamente escribiremos codigo aqui
 }
@@ -28,5 +39,6 @@ const esteban = ()=>{
         edad: 31
     }
 }
+
 
 
